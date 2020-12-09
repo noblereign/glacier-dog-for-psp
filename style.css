@@ -1,0 +1,36 @@
+html {
+	background-color: #0b0b0b;
+	color: #e8e6e3
+}
+body{
+	padding:0px;
+	margin:0px
+}
+main{ 
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 100vw;
+  padding: 0px;
+  margin: 0px
+}
+div{
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px
+}
+footer {
+    text-align: center;
+    padding: 50px;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	margin-right: -50%;
+	bottom: 0px;
+	padding:0px;
+	font-size: 2rem
+}
+a {
+	font-size: 2.5rem
+}
